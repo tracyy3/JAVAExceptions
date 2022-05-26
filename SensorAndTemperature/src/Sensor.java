@@ -5,6 +5,6 @@ public interface Sensor {
 
     void setOff(); // sets sensor off
 
-    int read(); // if on, returns the value of the sensor; if sensor is not on, throws an
+    int read(); // if on, returns the value of the sensor; if sensor is not on throw
                 // IllegalStateException
 }
